@@ -313,9 +313,41 @@ button {
 	font-family: Lato;
 	color: rgb(252,254,255);
 }
+.spisok8-1, .spisok8-2{
+	padding: 0;
+	margin-left: 20px;
+}
 .spisok8-1 li, .spisok8-2 li{
 	list-style: none;
-	margin-top: 50px;
+	margin-top: 30px;
+}
+.spisok8-1 li:nth-child(1){
+	background: url(image/nomer.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-1 li:nth-child(2){
+	background: url(image/bird-twit.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-1 li:nth-child(3){
+	background: url(image/gplus.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-2 li:nth-child(1){
+	background: url(image/hello.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-2 li:nth-child(2){
+	background: url(image/face.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-2 li:nth-child(3){
+	background: url(image/pinters.jpg) no-repeat;
+	padding: 0 30px 0 50px;
+}
+.spisok8-1 p, .spisok8-2 p{
+	font-family: Lato;
+	font-size: 18px;
 }
 
 .blok8 textarea {
@@ -351,4 +383,10 @@ button {
 .blok9 footer{
 	background: rgb(118,143,198);
 	color: rgb(252,255,251);
+}
+/* медиазапросы*/
+@media screen and (min-width: 800px;){
+	.blok1 .p1 , li, .p2{
+		font-size: 70px;
+	}
 }
